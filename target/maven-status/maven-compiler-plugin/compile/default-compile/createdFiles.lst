@@ -1,0 +1,5 @@
+org\example\swag\labs\automation\App.class
+org\example\swag\labs\automation\ChromeWebDriver.class
+org\example\swag\labs\automation\stepDefinitions\loginSteps.class
+org\example\swag\labs\automation\hooks\Hooks.class
+org\example\swag\labs\automation\BrowserTasks.class
