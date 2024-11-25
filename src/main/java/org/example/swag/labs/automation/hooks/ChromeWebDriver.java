@@ -3,6 +3,7 @@ package org.example.swag.labs.automation.hooks;
 import io.cucumber.java.After;
 import io.cucumber.java.Before;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
 
@@ -43,4 +44,5 @@ public class ChromeWebDriver {
     public void navigateToURL(String url){
         webDriver.get(url);
     }
+
 }
