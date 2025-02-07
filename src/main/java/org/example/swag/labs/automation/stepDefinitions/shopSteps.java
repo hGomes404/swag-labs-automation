@@ -26,8 +26,8 @@ public class shopSteps {
 
     }
 
-    @Given("^I have (\\d+) apples$") //example with regex and multiple option entry
+    /*@Given("^I have (\\d+) apples$") //example with regex and multiple option entry
     public void i_have_apples(int appleCount) {
         this.apples = appleCount;
-    }
+    }*/
 }
