@@ -24,11 +24,11 @@ import java.security.InvalidParameterException;
 
 public class TestRunner {
 
-    @BeforeClass
-    public static void setUpBeforeClass(){
-        if(StringUtils.isEmpty(System.getProperty("env"))){
-            throw new InvalidParameterException("No environment specified");
-        }
-    }
+//    @BeforeClass
+//    public static void setUpBeforeClass(){
+//        if(StringUtils.isEmpty(System.getProperty("env"))){
+//            throw new InvalidParameterException("No environment specified");
+//        }
+//    }
 
 }
