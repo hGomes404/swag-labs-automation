@@ -2,6 +2,7 @@ package org.example.swag.labs.automation.hooks;
 
 import io.cucumber.java.After;
 import io.cucumber.java.Before;
+import io.cucumber.java.Scenario;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -12,7 +13,7 @@ public class ChromeWebDriver {
     static WebDriver webDriver;
 
     @Before
-    public void init(){
+    public void beforeScenario(Scenario scenario){
        getWebDriver();
     }
 
@@ -37,8 +38,13 @@ public class ChromeWebDriver {
     }
 
     @After
-    public void teardown(){
-        webDriver.quit();
+    public void afterScenario(Scenario scenario){
+        if (webDriver != null){
+            webDriver.close();
+            webDriver.quit();
+            webDriver = null;
+        }
+
     }
 
     public void navigateToURL(String url){
