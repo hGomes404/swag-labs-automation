@@ -3,6 +3,7 @@ Feature: Perform logging in Swag Labs
   Background:
     Given I navigate to Swag Labs website
 
+  @this
   Scenario Outline: Authenticate into the user account
     Then I login using <username> user
     Examples:

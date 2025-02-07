@@ -1,5 +1,7 @@
-C:\Users\henri\Documents\QA Assessment\swag-labs-automation\src\main\java\org\example\swag\labs\automation\BrowserTasks.java
+C:\Users\henri\Documents\QA Assessment\swag-labs-automation\src\main\java\org\example\swag\labs\automation\utils\FileReader.java
 C:\Users\henri\Documents\QA Assessment\swag-labs-automation\src\main\java\org\example\swag\labs\automation\stepDefinitions\loginSteps.java
-C:\Users\henri\Documents\QA Assessment\swag-labs-automation\src\main\java\org\example\swag\labs\automation\hooks\Hooks.java
-C:\Users\henri\Documents\QA Assessment\swag-labs-automation\src\main\java\org\example\swag\labs\automation\ChromeWebDriver.java
+C:\Users\henri\Documents\QA Assessment\swag-labs-automation\src\main\java\org\example\swag\labs\automation\stepDefinitions\shopSteps.java
+C:\Users\henri\Documents\QA Assessment\swag-labs-automation\src\main\java\org\example\swag\labs\automation\pageElements\loginElements.java
 C:\Users\henri\Documents\QA Assessment\swag-labs-automation\src\main\java\org\example\swag\labs\automation\App.java
+C:\Users\henri\Documents\QA Assessment\swag-labs-automation\src\main\java\org\example\swag\labs\automation\hooks\ChromeWebDriver.java
+C:\Users\henri\Documents\QA Assessment\swag-labs-automation\src\main\java\org\example\swag\labs\automation\pageElements\shopElements.java
